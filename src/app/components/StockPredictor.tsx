@@ -55,8 +55,6 @@ export default function StockPredictor() {
             {result.symbol} Prediction
           </h2>
           <p className="text-gray-600">Prediction: <b>{result.prediction}</b></p>
-          <p>Accuracy: {Math.round(result.accuracy * 100)}%</p>
-          <p>Precision: {Math.round(result.precision * 100)}%</p>
           <p>Chance Up: {result.prob_up}%</p>
           <p>Chance Down: {result.prob_down}%</p>
         </div>
